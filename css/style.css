@@ -43,6 +43,21 @@ body {
     height: 35px;
 }
 
+/* rule to animate logo , it doesn't work and cause logo to flicker on hover*/
+/* .logo-box:hover .logo {
+    animation: moveInRight 3s ease-out;
+} */
+
+/* this rule fixes the flickering issue of animate logo */
+.logo-box:hover .logo {
+    animation: moveInRight 3s ease-out;
+}
+
+/* this rule also fixes the flickering issue of animate logo by delaying the animation */
+/* .logo:hover {
+    animation: moveInRight 1s ease-out;
+    animation-delay: 3s;
+} */
 
 .text-box {
     position: absolute;
